@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProimeiroProjeto</string>
+    <string name="label_titulo">Calculadora</string>
+    <string name="label_peso">Seu peso</string>
+    <string name="hint_peso">Exemplo: 80.0</string>
+    <string name="label_altura">Sua altura</string>
+    <string name="hint_altura">Exemplo: 1.78</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="btn_limpar">Limpar</string>
+</resources>
