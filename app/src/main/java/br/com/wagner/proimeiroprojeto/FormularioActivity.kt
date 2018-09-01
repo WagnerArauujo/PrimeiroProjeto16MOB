@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import br.com.wagner.proimeiroprojeto.extension.meuclear
 import br.com.wagner.proimeiroprojeto.extension.value
+import br.com.wagner.proimeiroprojeto.utils.ConstantesExtra
 import kotlinx.android.synthetic.main.activity_formulario.*
 
 class FormularioActivity : AppCompatActivity() {
@@ -26,7 +27,7 @@ class FormularioActivity : AppCompatActivity() {
 
     private fun chamarTelaResultado() {
         val telaResultadoIntent = Intent(this, ResultadoActivity::class.java)
-        telaResultadoIntent.putExtra( "PESO", inputPeso.value())
+        telaResultadoIntent.putExtra( ConstantesExtra.KEY_PESO, inputPeso.value())
         telaResultadoIntent.putExtra( "ALTURA", inputAltura.value())
         startActivity(telaResultadoIntent)
     }

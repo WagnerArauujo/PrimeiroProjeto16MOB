@@ -10,8 +10,11 @@ class ResultadoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resultado)
 
+        val peso = intent.extras.getString("PESO")
+        val altura = intent.extras.getString("ALTURA")
+
         Toast.makeText(this,
-                "Estoy aqui",
+                peso,
                 Toast.LENGTH_SHORT).show()
 
     }
