@@ -28,7 +28,7 @@ class FormularioActivity : AppCompatActivity() {
     private fun chamarTelaResultado() {
         val telaResultadoIntent = Intent(this, ResultadoActivity::class.java)
         telaResultadoIntent.putExtra( ConstantesExtra.KEY_PESO, inputPeso.value())
-        telaResultadoIntent.putExtra( "ALTURA", inputAltura.value())
+        telaResultadoIntent.putExtra( ConstantesExtra.KEY_ALTURA, inputAltura.value())
         startActivity(telaResultadoIntent)
     }
 }
