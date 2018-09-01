@@ -17,6 +17,7 @@
         android:text="@string/label_peso" />
 
     <EditText
+        android:id="@+id/inputPeso"
         style="@style/input"
         android:hint="@string/hint_peso" />
 
@@ -25,14 +26,17 @@
         android:text="@string/label_altura" />
 
     <EditText
+        android:id="@+id/inputAltura"
         style="@style/input"
         android:hint="@string/hint_altura" />
 
     <Button
+        android:id="@+id/btCalcular"
         style="@style/botao"
         android:text="@string/btn_calcular" />
 
     <Button
+        android:id="@+id/btLimpar"
         style="@style/botao"
         android:text="@string/btn_limpar" />
 
